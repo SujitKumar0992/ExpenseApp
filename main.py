@@ -10,7 +10,7 @@ app=Flask(__name__)
 app.secret_key=os.urandom(20)
 
 
-conn=mysql.connector.connect(host="remotemysql.com",user="90a5x8CGtC",password="KJXEamNVEF",database="90a5x8CGtC")
+conn=mysql.connector.connect(host="remotemysql.com",user="localhost",password="KJXEaretsddfd",database="database name")
 
 cursor=conn.cursor()
 
